@@ -1,0 +1,90 @@
+
+body {
+  margin: 0;
+  font-family: Futura, sans-serif;
+}
+#topNav li {
+  display: inline-block;
+  padding: 15px 20px 20px 3px;
+}
+#topNav a:link {
+  text-decoration: none;
+  color: white;
+}
+#topNav a:visited {
+  text-decoration: none;
+  color: white;
+}
+#topNav ul {
+  background-color: rgba(5, 209, 143, 1);
+}
+#gameTitle h1 {
+  text-align: center;
+  font-size: 110px;
+  color: rgba(55, 209, 143, 1);
+}
+#gameTitle h1 div {
+  font-size: 80px;
+  color: rgba(153, 0, 38, 1);
+}
+#gameTitle h2 {
+  background-color: rgba(5, 209, 143, 1);;
+  color: #FFFFFF;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#characters {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: rgba(5, 209, 143, 1);
+  font-size: large;
+}
+}
+#characters h1 {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: rgba(5, 209, 143, 1);
+  font-size: 25px;
+}
+#characters figure {
+  display: inline-block;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding bottom: 20px;
+}
+.critterWordAlt {
+  color: white;
+  background-color: rgba(153, 0, 38, 1);
+}
+
+.winner {
+  border: 25px solid rgba(5, 209, 143, 1);
+}
+
+#raceResults {
+  background-color: rgba(5, 209, 143, 1);
+  color: white;
+  text-align: center;
+}
+
+#raceResults h1 {
+  font-size: 45px;
+  padding-top: 33px;
+}
+
+#startRace {
+  background-color: transparent;
+  color: white;
+  font-size: 18px;
+  border-radius: 25px;
+  margin-bottom: 100px;
+  font-style: Futura, sans-serif;
+  padding: 15px;
+  border: 5px solid white;
+}
+.hover {
+  color: red;
+}
