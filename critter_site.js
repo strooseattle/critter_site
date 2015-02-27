@@ -30,6 +30,13 @@ $(window).load(function(){
           var fish = new Critter("Roger the Fish", 0.1, 9.5);
           var turtle = new Critter("Myrtle the Snapping-Turtle", 3, 9);
 
+        $('img').each(function(i){
+          if ($(this).hasClass('winner')) {
+            $(this).removeClass('winner')
+          }
+        })
+
+
           while (rabbit.position <= 60 && cat.position <= 60 && fish.position <= 60 && turtle.position <= 60) {
             rabbit.race();
             cat.race();

@@ -3,13 +3,25 @@ body {
   margin: 0;
   font-family: Futura, sans-serif;
 }
+#topNav ul{
+  margin: 0px;
+}
 #topNav li {
   display: inline-block;
-  padding: 15px 20px 20px 3px;
+  padding: 35px 20px 35px 20px;
 }
 #topNav a:link {
   text-decoration: none;
   color: white;
+
+}
+#topNav li a:hover {
+  text-decoration: none;
+  color: white;
+  background-color: transparent;
+  border: 5px solid white;
+  border-radius: 25px;
+  padding: 10px;
 }
 #topNav a:visited {
   text-decoration: none;
@@ -85,6 +97,4 @@ body {
   padding: 15px;
   border: 5px solid white;
 }
-.hover {
-  color: red;
-}
+
